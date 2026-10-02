@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohan's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        header {
+            border-bottom: 3px solid #cc0033; /* Rutgers Red Accent */
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #cc0033;
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+        .statement {
+            font-size: 1.15rem;
+            color: #34495e;
+            font-weight: 500;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 5px;
+            margin-top: 35px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 10px;
+            padding: 0;
+            list-style: none;
+        }
+        .skills-grid li {
+            background: #edf2f7;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .project-card {
+            background: #f8fafc;
+            border-left: 4px solid #cc0033;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+        .project-card h3 {
+            margin: 0 0 5px 0;
+            color: #2c3e50;
+        }
+        .project-link {
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .project-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header & Personal Statement Section -->
+        <header>
+            <h1>Sohan</h1>
+            <p class="statement">Welcome! I'm Sohan, an undergraduate at Rutgers University leveraging a diverse curriculum to develop a versatile skillset in Supply Chain and Business Analytic Information Technology, with the goal of becoming a cross-functional business leader.</p>
+        </header>
+
+        <!-- Skills Section -->
+        <h2>Skills</h2>
+        <ul class="skills-grid">
+            <li>Supply Chain Logistics</li>
+            <li>Business Analytics</li>
+            <li>Data Analysis (SQL/Excel)</li>
+            <li>Information Technology</li>
+            <li>Cross-Functional Leadership</li>
+            <li>Python / R (Optional)</li>
+        </ul>
+
+        <!-- Projects Section -->
+        <h2>Projects</h2>
+        
+        <div class="project-card">
+            <h3>Supply Chain Optimization Analysis</h3>
+            <p>Analyzed distribution networks to identify bottlenecks, reducing lead times and optimizing inventory overhead using linear programming.</p>
+            <a class="project-link" href="#" target="_blank">View Project Code &rarr;</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Business Intelligence Dashboard</h3>
+            <p>Built a dynamic data visualization dashboard using mock retail data to track core KPIs, inventory turnover, and regional sales trends.</p>
+            <a class="project-link" href="#" target="_blank">View Live Demo &rarr;</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Operations Case Study</h3>
+            <p>Collaborated in a team environment to map operational workflows, presenting cross-functional strategic recommendations for an e-commerce fulfillment center.</p>
+            <a class="project-link" href="#" target="_blank">View Case Details &rarr;</a>
+        </div>
+    </div>
+
+</body>
+</html>
